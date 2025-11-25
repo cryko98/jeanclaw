@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Copy, Twitter } from "lucide-react";
+import { Copy, Twitter, Send } from "lucide-react";
 import { toast } from "sonner";
 import logo from "@/assets/logo.png";
 
@@ -56,6 +56,22 @@ const Hero = () => {
               >
                 <Twitter className="mr-2 h-5 w-5" />
                 Join Community
+              </a>
+            </Button>
+
+            <Button
+              size="lg"
+              variant="outline"
+              asChild
+              className="font-bold text-lg border-2"
+            >
+              <a
+                href="https://t.me/JeanClawCTO"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Send className="mr-2 h-5 w-5" />
+                Telegram
               </a>
             </Button>
 
