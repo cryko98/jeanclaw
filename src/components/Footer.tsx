@@ -1,4 +1,4 @@
-import { Twitter } from "lucide-react";
+import { Twitter, Send } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -13,6 +13,14 @@ const Footer = () => {
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <Twitter className="w-8 h-8" />
+            </a>
+            <a
+              href="https://t.me/JeanClawCTO"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              <Send className="w-8 h-8" />
             </a>
           </div>
 
