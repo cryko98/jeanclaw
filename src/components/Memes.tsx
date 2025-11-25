@@ -6,6 +6,14 @@ import meme5 from "@/assets/meme-split.png";
 import meme6 from "@/assets/meme-karate.png";
 import meme7 from "@/assets/meme-poles.png";
 import meme8 from "@/assets/meme-moon.png";
+import meme9 from "@/assets/meme-peanut-1.jpg";
+import meme10 from "@/assets/meme-peanut-2.jpg";
+import meme11 from "@/assets/meme-peanut-3.jpg";
+import meme12 from "@/assets/meme-peanut-4.jpg";
+import meme13 from "@/assets/meme-peanut-5.jpg";
+import meme14 from "@/assets/meme-peanut-6.jpg";
+import meme15 from "@/assets/meme-peanut-7.jpg";
+import meme16 from "@/assets/meme-peanut-8.jpg";
 
 const Memes = () => {
   const memes = [
@@ -17,6 +25,14 @@ const Memes = () => {
     { src: meme6, alt: "Martial arts master" },
     { src: meme7, alt: "Pole champion" },
     { src: meme8, alt: "Moon landing" },
+    { src: meme9, alt: "Peanut power" },
+    { src: meme10, alt: "Nutty legend" },
+    { src: meme11, alt: "Peanut warrior" },
+    { src: meme12, alt: "Jean-Claw strikes" },
+    { src: meme13, alt: "Epic peanut move" },
+    { src: meme14, alt: "Legendary stance" },
+    { src: meme15, alt: "Peanut champion" },
+    { src: meme16, alt: "The ultimate peanut" },
   ];
 
   return (
