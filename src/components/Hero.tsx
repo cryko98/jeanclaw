@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Copy, Twitter } from "lucide-react";
 import { toast } from "sonner";
-import memeHero from "@/assets/meme-towers.png";
+import logo from "@/assets/logo.png";
 
 const Hero = () => {
   const contractAddress = "GWG68X7YztLGxVKrdebGnanRorF8VuLJHKVsuvckpump";
@@ -12,12 +12,12 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       <div className="container mx-auto px-4 py-20 text-center relative z-10">
         <div className="max-w-4xl mx-auto space-y-8">
           <div className="mb-8">
             <img
-              src={memeHero}
+              src={logo}
               alt="Jean-Claw Van Damme"
               className="w-64 h-64 mx-auto rounded-full object-cover border-4 border-primary shadow-2xl"
             />

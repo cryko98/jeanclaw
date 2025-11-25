@@ -1,3 +1,4 @@
+import Navigation from "@/components/Navigation";
 import FloatingPeanuts from "@/components/FloatingPeanuts";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
@@ -9,6 +10,7 @@ import Footer from "@/components/Footer";
 const Index = () => {
   return (
     <div className="relative min-h-screen">
+      <Navigation />
       <FloatingPeanuts />
       <Hero />
       <About />
